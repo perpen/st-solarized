@@ -213,8 +213,9 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
 	//hfd On surface laptop, same key whether Fn is on or not
-	{ XK_ANY_MOD,           XK_F9,          swapcolors,     {.i =  0} },
-	{ XK_ANY_MOD,           XK_Home,        swapcolors,     {.i =  0} },
+	// { XK_ANY_MOD,           XK_F9,          swapcolors,     {.i =  0} },
+	// { XK_ANY_MOD,           XK_Home,        swapcolors,     {.i =  0} },
+	// { XK_ANY_MOD,           XK_F6,          swapcolors,     {.i =  0} },
 };
 
 /*
